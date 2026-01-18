@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- css file      -->
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Document</title>
 </head>
-<body>
-    <header>
-        <section>
-          
-        </section>
-        <section>
 
+<body class="inter">
+    <!-- navber section  -->
+    <header class="navber-continer">
+        <section class="navber flex">
+            <div class="logo">
+                <h1><span>Tech</span> <span>wave</span></h1>
+            </div>
+            <div class="">
+                <ul class="nav-link flex">
+                    <li class="nav-link-item"><a href=""></a>About</li>
+                    <li class="nav-link-item><a href=""></a>Episodes</li>
+                    <li class=" nav-link-item><a href=""></a>Host</li>
+
+                </ul>
+            </div>
+            <button class="btn">subscribe <i class="fa-solid fa-arrow-right"></i></button>
         </section>
     </header>
     <main>
-        <section>
+        <section class="bannar-section">
+            <div class="bg-image">
+                <img src="./assets/hero-bg.png" alt="" srcset="">
+            </div>
+
+            <section hero-continer>
+                <div class="hero-continer-images">
+                    <img class="hero-imagefirst" src="./assets/hero-circle.png" alt="">
+                    <img class="hero-imagesec" src="./assets/microphone.png" alt="">
+                </div>
+            </section>
+            <div class="hero-content">
+                <h1>TechWave</h1>
+                <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="btn-group">
+                    <button class="btn" type="button">Listen on Spotify</button>
+                    <button class="btn" type="button">Subscribe</button>
+                </div>
+            </div>
 
         </section>
-        <section>
+        <!-- about section  -->
+        <section class="about-section">
+            <h2>About the Podcast</h2>
+            <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+                We break down complex topics into digestible insights, explore productivity strategies that actually
+                work, <br>
+                and share stories of personal growth from industry leaders.</p>
+                <p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
 
         </section>
     </main>
@@ -29,6 +76,7 @@
 
         </section>
     </footer>
-    
+
 </body>
+
 </html>

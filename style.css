@@ -1,1 +1,111 @@
-@import "tailwindcss"
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* common style  */
+.flex{
+    display: flex;
+}
+.btn{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    border-radius: 25px;
+    width: 135px;
+    height: 45px;
+}
+
+ /* navber  */
+.navber-continer{
+    background-color: #412567;
+    width: 1600px;
+    height: 92px;
+}
+
+.navber{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.logo h1 span{
+    color: white;
+}
+
+.nav-link{
+    list-style: none;
+    color: white;
+    gap: 50px;
+}
+/* bannar section  */
+.bannar-section{
+    position: relative;
+}
+.bg-image{
+    background-size: cover; 
+    background-attachment: fixed;
+    max-width: 1710px;
+    height: 800px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+
+.hero-imagefirst{
+    position: absolute;
+    top: 100px;
+    left: 625px;
+    z-index: 2;
+}
+.hero-imagesec{
+    position: absolute;
+    top: 170px;
+    left: 735px;
+    z-index: 3;
+
+}
+.hero-content{
+    position: absolute;
+    top: 520px;
+    left: 515px;
+    text-align: center;
+    z-index: 4;
+    border: 2px solid wheat;
+    width: 550px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.hero-content{
+    color: white;
+}
+
+.hero-content h1{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.hero-content p{
+    font-size: 1rem;
+}
+
+.about-section{
+    background-color: #1A0B2E;
+    width: 1600px;
+    height: 650px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 0;
+}
