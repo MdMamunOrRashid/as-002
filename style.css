@@ -51,7 +51,7 @@
     background-size: cover; 
     background-attachment: fixed;
     max-width: 1710px;
-    height: 800px;
+    height: 760px;
     position: relative;
     z-index: 1;
     margin-bottom: 0;
@@ -99,13 +99,103 @@
     font-size: 1rem;
 }
 
+/* abouth section  */
 .about-section{
     background-color: #1A0B2E;
     width: 1600px;
     height: 650px;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 50px;
     box-sizing: border-box;
     margin-top: 0;
 }
+
+.about-content-continer{
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 150px;
+}
+
+.about-section h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.about-section p{
+    font-size: 1rem;
+
+}
+
+.about-card-continer{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.about-card-continer h3{
+    color: #00FF88;
+}
+
+.about-card{
+    justify-content: space-around;
+}
+
+/* end about section  */
+
+/* Why Choose Section  */
+
+.why-choose-section{
+    background-color: #230E3D;
+    width: 1600px;
+    height: 750px;
+    box-sizing: border-box;
+}
+
+.why-choose-section h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+/* featured-episodes section  */
+.featured-episodes{
+     background-color: #1A0B2E;
+    width: 1600px;
+    height: 1250px;
+    box-sizing: border-box;
+
+}
+
+.featured-episodes h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.videofirst{
+    max-width: 25%;
+    height: 430px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 2px solid white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #230E3D;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.video-continer{
+    display: flex;
+    justify-content: space-around;
+
+}
+
