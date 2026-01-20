@@ -97,7 +97,7 @@
 /* banner style here */
 .banner {
     background-color: #1a0c30;
-    background: url("../assets/hero-bg.png");
+    background: url("./assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -498,7 +498,7 @@
 /* /* footer section star * */
 footer {
     background-color: #211142;
-    background-image: url("../assets/footer-bg.png");
+    background-image: url("./assets/footer-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
