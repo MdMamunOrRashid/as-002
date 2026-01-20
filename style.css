@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* --all  body  */
+
 .font-inter {
     font-family: "Inter", sans-serif;
     background-color: #1a0b2e;
@@ -40,18 +40,7 @@
         
 }
 
-/* color text */
-.primary-color {
-    background: linear-gradient(50deg,
-            #f3c94a 0%,
-            #ff6b8a 30%,
-            #c84dbb 60%,
-            #8e5ae3 80%,
-            #6b5cff 100%);
-  
-}
 
-/* --common color */
 .section-heading {
     color: rgba(255, 255, 255, 1);
     font-size: clamp(2rem, 5vw, 3rem);
@@ -219,6 +208,9 @@
     align-items: center;
 }
 
+.banner-btn .spotify-btn{
+    border: none;
+}
 /* about section code here */
 .about {
     background: #1a0b2e;
